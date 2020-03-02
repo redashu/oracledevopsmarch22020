@@ -1,0 +1,15 @@
+FROM   fedora
+#  this will pull from docker hub if not present locally 
+MAINTAINER  ashutoshh@linux.com   ,  9509957594
+#  docker  image author 
+RUN  yum   install   httpd  -y
+#  it will create container and install httpd then merge into fedora
+WORKDIR   /var/www/html/
+#  this  will change  directory in the container 
+COPY  .    . 
+#  this will copy  all current source data  into  target
+EXPOSE  80 
+#  default  port  for  httpd web server 
+ENTRYPOINT  httpd  -DFOREGROUND
+#  this will start  httpd  daemon  
+ 

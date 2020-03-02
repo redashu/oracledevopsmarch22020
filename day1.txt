@@ -1,0 +1,292 @@
+    4  sudo  yum   install   docker  
+    6  sudo   yum   install   docker
+    7  sudo   yum   install   docker 
+    8  sudo  systemctl  start  docker
+    9  sudo  systemctl  status   docker
+   11    6  sudo   yum   install   docker
+   12      7  sudo   yum   install   docker
+   13      8  sudo  systemctl  start  docker
+   14      9  sudo  systemctl  status   docker
+   15  docker  version
+   16  sudo  docker   info  
+   17  sudo  docker   search   oracle 
+   18  sudo  docker   search   python 
+   19  sudo  docker   search    hadoop
+   21  sudo  docker   search    ashutoshh
+   22  sudo  docker   search    dockerashu
+   24  sudo  docker   search    dockerashu
+   26  sudo  docker  images
+   27  sudo  docker  pull  java
+   28  sudo  docker  images
+   29  sudo  docker  pull  mysql 
+   32  sudo  docker  pull  mysql 
+   33  sudo  docker  images
+   34  sudo  docker  pull  alpine 
+   35  sudo  docker  images
+   36  sudo  docker pull  python 
+   37  sudo  docker  images
+   38  sudo  docker pull   ashutoshfkdskfhldsjflkds
+   39  sudo  docker pull   oracle12ce
+   40  sudo  docker   images
+   41  sudo  docker pull   hello-world
+   42  sudo  docker   images
+   45  sudo  docker  images
+   47  sudo  docker  run  alpine  cal 
+   48  sudo  docker   ps
+   49  sudo  docker   ps -a
+   50  sudo  docker  run  alpine  ping  google.com 
+   51  sudo  docker  ps
+   52  sudo  docker  ps -a
+   53  sudo  docker  run --name  ashuc1   alpine  ping  google.com 
+   54  sudo  docker  ps -a
+   56  sudo  docker  run --name  ashuc11   alpine  ping  google.com 
+   57  sudo  docker  run --name  ashuc2  -d   alpine  ping  google.com 
+   58  sudo  docker  ps
+   59  sudo  docker  run  -d   alpine  ping  google.com 
+   60  sudo  docker  ps
+   62  sudo docker  ps
+   63  sudo  docker  logs   ashuc2
+   64  sudo  docker  logs   ashuc2  -f
+   66  sudo  docker  run  -d   alpine  ping  fb.com 
+   67  sudo  docker  ps
+   68  sudo  docker logs 9e41df5ccd8c
+   70  sudo  docker  ps
+   71  sudo  docker   stop   ashuc2
+   72  sudo  docker  ps
+   74  sudo  docker   ps
+   75  sudo  docker  kill  gul1 
+   76  sudo  docker   ps
+   77  sudo  docker  kill  pravin1 leoc1  
+   78  sudo  docker   ps
+   80  sudo  docker   ps  -a
+   81  sudo  docker   rm  ashuc2
+   82  sudo  docker  start  pravin1 
+   83  sudo  docker  ps
+   85  sudo  docker  start  ashuc2
+   87  sudo  docker  ps  -a
+   88  sudo  docker  ps  -aq
+   89  sudo  docker  kill           $(sudo  docker  ps  -aq)
+   90  sudo  docker  rm      $(sudo  docker  ps  -aq)
+   92  sudo  docker  ps 
+   93  sudo  docker  ps  -a
+   94  sudo  docker  run   alpine  cal 
+   95  sudo  docker  ps -a
+   96  sudo  docker  ps 
+   97  sudo  docker  logs  heuristic_visvesvaraya
+   99  sudo  docker  run   --name  ok aline ping  8.8.8.8
+  100  sudo  docker  run   --name  ok alpine ping  8.8.8.8
+  101  sudo  docker  run   --name  ok1 -d   alpine ping  8.8.8.8
+  102  sudo  docker  ps
+  105  sudo  docker  ps
+  106  sudo  docker  exec  ok1   cal
+  107  sudo  docker  exec  ok1   date
+  108  sudo  docker  exec  ok1   sh 
+  109  sudo  docker  exec -it  ok1   sh 
+  110  sudo  docker  ps
+  112  sudo  docker  exec  ok1   sh 
+  113  sudo  docker  exec -i  ok1   sh 
+  114  sudo  docker  exec -it  ok1   sh 
+  116  sudo  docker  run -it   centos  bash 
+  118  sudo  docker  ps
+  120  sudo  docker  ps
+  121  sudo  docker  kill   $(docker  ps  -aq)
+  122  sudo  docker  kill   $(sudo  docker  ps  -aq)
+  123  sudo  docker  rm  $(sudo  docker  ps  -aq)
+  124  sudo  docker  images
+  125  sudo  docker  run  -d --name  ashuc1  oraclelinux bash 
+  126  sudo  docker  ps
+  127  sudo  docker  run  -itd --name  ashuc11  oraclelinux bash 
+  128  sudo  docker  ps
+  129  sudo  docker  run  -itd --name  ashuc22  oraclelinux bash 
+  130  sudo  docker  ps
+  132  127  sudo  docker  run  -itd --name  ashuc11  oraclelinux bash
+  134  sudo  docker  ps
+  135  sudo  docker  exec  -it  ashuc11  bash 
+  136  sudo  docker  exec  -it  ashuc22  bash 
+  138  sudo  docker   exec  -it  leo_c3  sh 
+  140  sudo yum install docker
+  146  sudo systemctl status docker
+  147  sudo systemctl start docker
+  148  sudo systemctl status docker
+  149  sudo docker search python
+  150  sudo docker search ansible
+  151  sudo docker images
+  152  sudo docker python
+  153  sudo docker pull python
+  154  sudo docker pull oracle19c
+  155   sudo docker pull shell
+  156  sudo docker list images
+  157  sudo docker images
+  158  sudo docker --help
+  159  sudo docker ps
+  160  sudo docker run alpine cal
+  161  sudo docker ps
+  162  sudo docker ps -a
+  165  sudo docker run alpine cal
+  166  sudo docker ps -a
+  167  sudo docker run alpine ls -lrt /home
+  168  sudo docker ps -a
+  169  sudo docker run --name sreeharsha1 alpine ls -lrt /home
+  170  sudo docker ps -a
+  171   sudo docker run --name sreeharsha1 alpine ls -lrt /home
+  172  sudo docker run --name sreeharsha2 alpine echo "Ths is testing"
+  173  sudo docker ps -a
+  174  history|grep -i docker
+  175  sudo docker run --name sreeharsha3 -d "ping google.com"
+  176   sudo docker run --name sreeharsha_ping -d alpine ping google.com
+  177  sudo docker ps -a
+  178  sudo docker logs sreeharsha_ping
+  179  sudo docker logs sreeharsha1
+  180  sudo docker logs sreeharsha_ping -f
+  181  sudo docker stop sreeharsha_ping
+  182  sudo docker logs sreeharsha_ping -f
+  183  sudo docker ps
+  184  sudo docker kill infallible_lovelace
+  185  sudo docker ps
+  186  sudo docker start sreeharsha_ping
+  187  sudo docker ps
+  188  sudo docker start infallible_lovelace
+  189  sudo docker ps
+  190  sudo docker start sreeharsha_ping
+  191  sudo docker pseibcccetebtkttbujunrlnruritkcbhkfebedunlnbii
+  193   sudo docker images
+  194  sudo docker search linux
+  195  sudo docker search java
+  196  sudo docker search pyhton
+  197   sudo docker images
+  198  sudo docker ps
+  199  sudo docker ps -a
+  200  sudo docker run --name sreeharsha3 -d "ping google.com"
+  201  sudo docker run --name sreeharsha2 alpine echo "Ths is testing"
+  202  sudo docker search oracle
+  203  sudo docker search databas
+  204  sudo docker search database
+  205  sudo docker ps
+  206  sudo docker -ps
+  207  sudo docker run --name sreeharsha3 -d "ping google.com"
+  208  sudo docker run --name ksreehar aline ping "google.com"
+  209  sudo docker run --name ksreehar aline ping google.com
+  210  sudo docker run --name sreeharsha1 -d alpine ping "google.com"
+  211  sudo docker exec sreeharsha1 sh
+  212  sudo docker exec sreeharsha1 calc
+  213  sudo docker exec sreeharsha1 cal
+  214  sudo docker exec sreeharsha1 echo "hi"
+  215  sudo docker exec sreeharsha1 date
+  216  sudo docker exec -it sreeharsha1 cal
+  217  sudo docker exec -it sreeharsha1 date
+  218  sudo docker run -d --name ksreehar oraclelinux bash
+  219  sudo docker ps
+  220  sudo docker run -itd --name ksreehar oraclelinux bash
+  221  sudo docker run -itd ksrehar1  oraclelinux bash
+  222  sudo docker ps
+  223  sudo docker run -itd --name test1 oraclelinux bash
+  224  sudo docker run -itd --name test2 oraclelinux bash
+  225  sudo docker ps
+  226  sudo docker exec -it test1 sh
+  227  sudo docker exec -it test2 bash
+  228  sudo docker exec -it test1 bash
+  230  sudo  docker  ps
+  231  sudo  docker  stats  leo_c3
+  232  sudo  docker  ps
+  233  sudo  docker  stats  leo_c3
+  236  sudo  docker  run -itd  --name  ashuc3  oraclelinux  
+  237  sudo  docker  run -itd  --name  ashuc4   alpine 
+  238  sudo  docker  ps
+  254  vim   Dockerfile  
+  255  cat  Dockerfile 
+  257  #  from  will pull  python  docker image  from  docker hub
+  259  #  from  host  to  docker  image  copy
+  262  cat  Dockerfile 
+  264  cat  Dockerfile 
+  265  sudo  docker  inspect   alpine 
+  266  sudo  docker  inspect   oraclelinux
+  268  sudo  docker  ps
+  271  cat  Dockerfile 
+  272  sudo  docker  images
+  275  cat  Dockerfile 
+  276  sudo docker  build  -t  ashu:pyv1  . 
+  277  sudo  docker  images
+  278  sudo  docker  run  -it  --name  ashpyc1 ashu:pyv1  
+  279  sudo  docker  run  -itd  --name  ashpyc2 ashu:pyv1  
+  280  sudo  docker  ps
+  281  sudo  docker  logs  ashpyc2 
+  283  sudo  docker  ps
+  285  sudo  docker  ps
+  286  sudo  docker  ps  |   wc -l
+  288  sudo  docker  images
+  291  docker  exec -it  ashupyc2  bash 
+  292  sudo  docker  exec -it  ashupyc2  bash 
+  293  sudo  docker  exec -it  ashupy2  bash 
+  294  sudo  docker  ps
+  295  sudo  docker  exec -it  ashpyc2  bash 
+  301  sudo  docker  build  -t   ashu:pyv2 . 
+  302  sudo  docker  run -itd --name  ashupyc3   ashu:pyv2 
+  303  sudo  docker  logs  ashupyc3   
+  305  sudo  docker  run  -it   ashu:pyv1
+  306  sudo  docker  run  alpine  ping  google.com 
+  307  sudo  docker  run -d   alpine  ping  google.com 
+  309  sudo docker stats test1
+  311  sudo docker -p
+  312  sudo docker ps
+  313  sudo docker exec -it test1 bash
+  352  vi Dockerfile 
+  353  cat Dockerfile 
+  354  sudo docker inspect sreeharsha1
+  355  sudo docker inspect test1
+  356  sudo docker inspect oraclelinux
+  357  sudo docker inspect oraclelinux|grep -i cmd
+  358  sudo docker inspect test1|grep -i cmd
+  361  sudo  docker  run  -d --name ksreehar1 oraclelinux bash
+  362  sudo docker inspect ksreehar1|grep -i cmd
+  363  sudo docker inspect oraclelinux|grep -i cmd
+  366  sudo docker build -t ksreehar:pyv1 .
+  367  sudo docker images
+  368  sudo docker images|grep ksreehar
+  369  sudo docker run -tid --name ksreehar1 ksreehar:pyv1
+  370  sudo docker run -tid --name sreeharsha2 ksreehar:pyv1
+  371  sudo docker logs sreeharsha2
+  372  sudo docker -itd --name sreeharsha2 ksreehar1:pyv1
+  373  sudo docker -itd --name sreeharsha2 ksreehar:pyv1
+  374  sudo docker run -itd --name sreeharsha2 ksreehar:pyv1
+  375  sudo docker ps
+  376  sudo docker exec -it sreeharsha2
+  377  sudo docker exec -it sreeharsha2 bash
+  383  sudo docker build -t ksreehar:pyv2
+  386  sudo docker build -t ksreehar:pyv2 .
+  388  sudo docker run -itd --name sreeharsha3 ksreehar:pyv2
+  389  sudo docker logs sreeharsha3
+  391  sudo docker logs sreeharsha3
+  403  cat  Dockerfile 
+  404  sudo  docker  images
+  405  sudo  docker  run  -it  --name  ok1  ashu:pyv1  bash 
+  406  sudo docker  inspect    ashu:pyv1
+  409  vim Dockerfile 
+  411  vim Dockerfile 
+  412  sudo  docker  build  -t   ashu:pyv3  .  
+  413  sudo  docker  run  -it  ashu:pyv3  bash 
+  414  cat  Dockerfile 
+  415  vim Dockerfile 
+  440          <h1>  Hello Oracle with Docker  </h1>
+  451  sudo  docker  search  httpd
+  453  vim  ashudockerfile
+  454  cat  ashudockerfile 
+  456  #  this will pull from docker hub if not present locally
+  458  #  docker  image author
+  470  cat  ashudockerfile 
+  471  vim ashudockerfile 
+  473  cat  ashudockerfile 
+  475  vim   .dockerignore 
+  477  cat  ashudockerfile 
+  478  cat  .dockerignore 
+  481  cat  ashudockerfile 
+  482  sudo docker images
+  483  cat  ashudockerfile 
+  485  sudo docker  build  -t   ashu:webappv1  .
+  487  sudo docker  build -f  ashudockerfile  -t   ashu:webappv1  .
+  488  sudo  docker  images
+  489  sudo  docker  images  |   grep  -i ashu
+  490  sudo  docker  images  |   grep  -i fedora
+  491  sudo  docker  history  ashu:webappv1
+  493  cat  ashudockerfile 
+  501  history    |  grep -i docker  
+  502  history    |  grep -i docker   >day1.txt
